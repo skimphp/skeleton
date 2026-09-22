@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php declare(strict_types=1);
+
+// SKIM CLI proxy — part of the project skeleton.
+// This file never changes. All logic lives in vendor/skim/framework/bin/skim.
+// Usage:
+//   php skim migrate
+//   php skim serve --port=8080
+//   php skim list --agent
+
+require __DIR__ . '/vendor/skim/framework/bin/skim';
